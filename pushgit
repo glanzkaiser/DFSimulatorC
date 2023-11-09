@@ -1,0 +1,5 @@
+git add .
+git commit -m "Quest'ce que je ne veux pas faire pour toi Freya?"
+git branch -M main
+git remote add origin https://github.com/glanzkaiser/DFSimulatorC.git
+git push -u origin main
