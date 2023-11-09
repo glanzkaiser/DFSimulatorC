@@ -4,6 +4,10 @@ DianFreya Math Physics Simulator is a book that explain how to create Mathematic
 When you are interested in science and want to prove classical mechanics computation through computer simulation till quantum mechanics, C++ can come in handy. We are going to use popular Physics library Box2D and ReactPhysics3D, modify them and analyze the results. As a bonus, we also include an example with Bullet Physics, but mainly we stay with Box2D that is more simple and easy to follow.
 
 The book:
+| DianFreya Math Physics Simulator Book |
+| -------------------------- | 
+| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/DFSimulatorC%2B%2BCover.png" width="83%"> | 
+| <a href="https://github.com/glanzkaiser/DFSimulatorC/blob/main/DianFreya%20Math%20Physics%20Simulator.pdf">Click</a> | 
 
 #### it is not finished yet, our goal is to finish major sections and chapters in Fundamental of Physics book and some Mathematics simulation like Heat Equation PDE, Numerical Integration, Numerical Differentiation. I have to postpone Lasthrim Projection writing due to this (turns out Physics is more fun than Mathematics alone)
 
