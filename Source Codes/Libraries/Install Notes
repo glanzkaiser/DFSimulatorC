@@ -1,0 +1,52 @@
+I love my wife
+and I use GFreya OS
+
+GLEW-2.2.0
+sed -i 's%lib64%lib%g' config/Makefile.linux &&
+sed -i -e '/glew.lib.static:/d' \
+       -e '/0644 .*STATIC/d'    \
+       -e 's/glew.lib.static//' Makefile     &&
+make
+make install.all
+
+GLU-9.0.2
+mkdir build &&
+cd    build &&
+
+meson --prefix=$XORG_PREFIX -Dgl_provider=gl --buildtype=release .. &&
+ninja
+ninja install &&
+rm -vf /usr/lib/libGLU.a
+
+
+Before we can take off, you need to make sure you have all the things you need.
+
+    A reasonable amount of experience with C++
+    Graphics card compatible with OpenGL 3.2
+    SFML, GLFW or SDL for creating the context and handling input
+    GLEW to use newer OpenGL functions
+    SOIL for textures
+    GLM for vectors and matrices
+
+Libraries:
+SFML:
+SFML is a cross-platform C++ multimedia library that provides access to graphics, input, audio, networking and the system. The downside of using this library is that it tries hard to be an all-in-one solution. You have little to no control over the creation of the OpenGL context, as it was designed to be used with its own set of drawing functions.
+
+SDL:
+SDL is also a cross-platform multimedia library, but targeted at C. That makes it a bit rougher to use for C++ programmers, but it's an excellent alternative to SFML. It supports more exotic platforms and most importantly, offers more control over the creation of the OpenGL context than SFML.
+
+
+Building
+After you've downloaded the SDL binaries or compiled them yourself, you'll find the needed files in the lib and include folders.
+
+    Add the lib folder to your library path and link with SDL2 and SDL2main.
+    SDL uses dynamic linking, so make sure that the shared library (SDL2.dll, SDL2.so) is with your executable.
+    Add the include folder to your include path.
+
+GLFW:
+GLFW, as the name implies, is a C library specifically designed for use with OpenGL. Unlike SDL and SFML it only comes with the absolute necessities: window and context creation and input management. It offers the most control over the OpenGL context creation out of these three libraries.
+
+After you've downloaded the GLFW binaries package from the website or compiled the library yourself, you'll find the headers in the include folder and the libraries for your compiler in one of the lib folders.
+
+    Add the appropriate lib folder to your library path and link with GLFW.
+    Add the include folder to your include path.
