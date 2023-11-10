@@ -17,6 +17,19 @@ Go to a directory specified to learn this, then open terminal / xterm and type:
 git clone https://github.com/glanzkaiser/DFSimulatorC.git
 ```
 
+How to build can be seen at this:
+https://youtu.be/6FK19XRSh6U
+
+# Current Box2D Simulation
+
+| Name | Simulation |
+| -------------     | ------------- | 
+| Circular Motion   | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Circular-Motion.gif" width="83%">
+| Gravity           | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Gravity.gif" width="83%">
+| Newton's First Law| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Newton-First-Law.gif" width="83%">
+| Projectile Dropped| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Projectile-Dropped.gif" width="83%">
+| Simple Pendulum   | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Simple-Pendulum.gif" width="83%">
+
 # Source of Learning:
 1. Fundamental of Physics 10th Edition, David Halliday, Jearl Walker, Robert Resnick
 2. Box2D

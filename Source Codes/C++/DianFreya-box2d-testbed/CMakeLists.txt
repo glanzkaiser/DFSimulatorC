@@ -16,6 +16,7 @@ set (TESTBED_SOURCE_FILES
 	tests/projectile_motion.cpp
 	tests/projectile_dropped.cpp
 	tests/spring_test.cpp
+	tests/newton_firstlaw.cpp
 	tests/gases_container.cpp
 	tests/gravity_check.cpp
 	tests/simple_pendulum.cpp
