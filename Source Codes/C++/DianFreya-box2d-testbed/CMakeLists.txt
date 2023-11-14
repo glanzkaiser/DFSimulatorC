@@ -17,6 +17,10 @@ set (TESTBED_SOURCE_FILES
 	tests/projectile_dropped.cpp
 	tests/spring_test.cpp
 	tests/newton_firstlaw.cpp
+	tests/newton_firstlaw2dforces.cpp
+	tests/pulley_jointtriangle.cpp
+	tests/pulley_kineticfriction.cpp
+	tests/frictional_forces.cpp
 	tests/gases_container.cpp
 	tests/gravity_check.cpp
 	tests/simple_pendulum.cpp

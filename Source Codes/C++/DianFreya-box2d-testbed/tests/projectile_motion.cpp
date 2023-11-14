@@ -92,6 +92,9 @@ public:
 	void Step(Settings& settings) override
 	{	
 		b2MassData massData = m_ball->GetMassData();
+		
+		g_debugDraw.DrawString(5, m_textLine, "Press S to project the ball");
+		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Ball Mass = %.6f", massData.mass);
 		m_textLine += m_textIncrement;
 		

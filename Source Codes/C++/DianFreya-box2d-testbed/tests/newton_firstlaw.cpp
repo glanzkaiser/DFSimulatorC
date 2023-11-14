@@ -166,6 +166,10 @@ public:
 		b2Vec2 velocity2 = m_box2->GetLinearVelocity();
 		b2Vec2 velocity3 = m_box3->GetLinearVelocity();
 		
+		g_debugDraw.DrawString(5, m_textLine, "Press A or D to set the box velocity into 10");
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "Press F or G to move the box with Force");
+		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Time (in seconds)= %.6f", m_time);
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Box 1 position = (%4.1f, %4.1f)", position.x, position.y);
