@@ -13,13 +13,19 @@ set (TESTBED_SOURCE_FILES
 	tests/test.cpp
 	tests/stir_liquid.cpp
 	tests/circular_motion.cpp
+	tests/circular_motionbox.cpp
+	tests/circular_motionairplane.cpp
 	tests/projectile_motion.cpp
 	tests/projectile_dropped.cpp
+	tests/kineticenergy_collision.cpp
 	tests/spring_test.cpp
+	tests/spring_twomasses.cpp
+	tests/verticalspring_test.cpp
 	tests/newton_firstlaw.cpp
 	tests/newton_firstlaw2dforces.cpp
 	tests/pulley_jointtriangle.cpp
 	tests/pulley_kineticfriction.cpp
+	tests/dragforce_skier.cpp
 	tests/frictional_forces.cpp
 	tests/gases_container.cpp
 	tests/gravity_check.cpp

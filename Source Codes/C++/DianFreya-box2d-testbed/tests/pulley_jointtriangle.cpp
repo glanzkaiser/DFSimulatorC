@@ -87,7 +87,7 @@ public:
 			boxFixtureDef2.restitution = 0.75f;
 			boxFixtureDef2.density = 0.3835f; // this will affect the box mass, mass = density*5.9969
 			boxFixtureDef2.friction = 0.3f;
-			boxFixtureDef2.shape = &boxShape;
+			boxFixtureDef2.shape = &boxShape2;
 			
 			b2BodyDef boxBodyDef2;
 			boxBodyDef2.type = b2_dynamicBody;

@@ -25,7 +25,6 @@
 #include "imgui/imgui.h"
 #include <iostream> 
 
-// This is used to test sensor shapes.
 class SpringTest : public Test
 {
 public:
@@ -40,7 +39,7 @@ public:
 			shape.SetTwoSided(b2Vec2(-46.0f, 0.0f), b2Vec2(46.0f, 0.0f));
 			ground->CreateFixture(&shape, 0.0f);
 		}
-		// Create a static body as the box for the spring
+			// Create a static body as the box for the spring
 			b2BodyDef bd1;
 			bd1.type = b2_staticBody;
 			bd1.angularDamping = 0.1f;
@@ -68,32 +67,13 @@ public:
 
 			m_box = m_world->CreateBody(&boxBodyDef);
 			b2Fixture *boxFixture = m_box->CreateFixture(&boxFixtureDef);
-
-			// Create the ball as the movable object
-			b2CircleShape ballShape;
-			ballShape.m_p.SetZero();
-			ballShape.m_radius = 0.5f;
-			
-			b2FixtureDef ballFixtureDef;
-			ballFixtureDef.restitution = 0.75f;
-			ballFixtureDef.density = 3.3f; // this will affect the ball mass
-			ballFixtureDef.friction = 0.1f;
-			ballFixtureDef.shape = &ballShape;
-			
-			b2BodyDef ballBodyDef;
-			ballBodyDef.type = b2_dynamicBody;
-			ballBodyDef.position.Set(-5.0f, 0.5f);
-
-			m_ball = m_world->CreateBody(&ballBodyDef);
-			b2Fixture *ballFixture = m_ball->CreateFixture(&ballFixtureDef);
-			//m_ball->SetGravityScale(-7); // negative means it will goes upward, positive it will goes downward
+			//m_box->SetGravityScale(-7); // negative means it will goes upward, positive it will goes downward
 			// Make a distance joint for the box / ball with the static box above		
 			m_hertz = 1.0f;
 			m_dampingRatio = 0.1f;
 
 			b2DistanceJointDef jd;
 			jd.Initialize(springbox, m_box, b2Vec2(1.0f, 0.5f), boxBodyDef.position);			
-			//jd.Initialize(springbox, m_ball, b2Vec2(1.0f, 0.5f), ballBodyDef.position);			
 			jd.collideConnected = true; // In this case we decide to allow the bodies to collide.
 			m_length = jd.length;
 			m_minLength = 2.0f;
@@ -104,12 +84,12 @@ public:
 			m_joint->SetMinLength(m_minLength);
 			m_joint->SetMaxLength(m_maxLength);
 
-			
+			m_time = 0.0f;
 	}
-	b2Body* m_ball;
 	b2Body* m_box;
 	b2DistanceJoint* m_joint;
 	float m_length;
+	float m_time;
 	float m_minLength;
 	float m_maxLength;
 	float m_hertz;
@@ -119,11 +99,22 @@ public:
 	{
 		switch (key)
 		{
-		case GLFW_KEY_D:
-			m_box->SetLinearVelocity(b2Vec2(30.0f, 0.0f));
-			break;
 		case GLFW_KEY_A:
-			m_box->SetLinearVelocity(b2Vec2(-30.0f, 0.0f));
+			//m_box->SetLinearVelocity(b2Vec2(30.0f, 0.0f));
+			m_box->ApplyForceToCenter(b2Vec2(-8000.0f, 0.0f), true);
+			break;
+		case GLFW_KEY_S:
+			//m_box->SetLinearVelocity(b2Vec2(-30.0f, 0.0f));
+			m_box->ApplyForceToCenter(b2Vec2(-5000.0f, 0.0f), true);
+			break;
+		case GLFW_KEY_D:
+			m_box->ApplyForceToCenter(b2Vec2(5000.0f, 0.0f), true);
+			break;
+		case GLFW_KEY_F:
+			m_box->ApplyForceToCenter(b2Vec2(8000.0f, 0.0f), true);
+			break;
+		case GLFW_KEY_G:
+			m_box->ApplyForceToCenter(b2Vec2(12000.0f, 0.0f), true);
 			break;
 		}
 	}
@@ -162,13 +153,23 @@ public:
 	{
 		b2MassData massData = m_box->GetMassData();
 		b2Vec2 position = m_box->GetPosition();
-
-		g_debugDraw.DrawString(5, m_textLine, "Ball position, x = %.6f", position.x);
+		b2Vec2 velocity = m_box->GetLinearVelocity();
+		m_time += 1.0f / 60.0f;	// assuming we are using frequency of 60 Hertz 
+		
+		g_debugDraw.DrawString(5, m_textLine, "Press A/S/D/F/G to apply different force to the box");
 		m_textLine += m_textIncrement;
-		g_debugDraw.DrawString(5, m_textLine, "Ball position, y = %.6f", position.y);
+		g_debugDraw.DrawString(5, m_textLine, "Time (in seconds)= %.6f", m_time);
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "Mass position = (%4.1f, %4.1f)", position.x, position.y);
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "Mass velocity = (%4.1f, %4.1f)", velocity.x, velocity.y);
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Mass = %.6f", massData.mass);
 		m_textLine += m_textIncrement;
+		// Print the result in every time step then plot it into graph with either gnuplot or anything
+
+		printf("%4.2f\n", position.x);
+		
 		Test::Step(settings);
 	}
 	static Test* Create()
