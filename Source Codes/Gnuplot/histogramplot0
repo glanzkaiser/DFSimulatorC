@@ -1,0 +1,5 @@
+binwidth=5
+set boxwidth binwidth
+bin(x,width)=width*floor(x/width)
+set style fill solid 0.5 # fill style
+plot 'pendulumdata' using (bin($1,binwidth)):(1.0) smooth freq with boxes lc rgb"blue" title 'Pendulum angle'

@@ -1,0 +1,9 @@
+reset
+back4 = back3 = back2 = back1 = 0
+shift(x) = (back4 = back3, back3 = back2, back2 = back1, back1 = x)
+samples(x) = $0 < 3 ? NaN : x
+set ticslevel 0
+# the labels are only for orientation when checking the test data
+set xlabel 'xlabel'
+set ylabel 'ylabel'
+splot 'data' using (shift($1), samples(back4-back3)):(samples(back3-back2)):(samples(back2-back1))

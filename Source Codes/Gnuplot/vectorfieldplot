@@ -1,0 +1,10 @@
+set xrange [-23:23]
+set yrange [0:2]
+# only integer x-coordinates
+set samples 11
+# only integer y-coordinates
+set isosamples 11
+# we need data, so we use the special filename "data", which
+# produces x,y-pairs
+set title "Vector Field"
+plot "data" using 1:2:1:(2.*$2) with vectors title 'F(x,y) = <x, 2y> Kinetic Work '

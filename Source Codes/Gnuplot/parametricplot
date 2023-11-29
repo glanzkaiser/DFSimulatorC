@@ -1,0 +1,6 @@
+unset key
+set parametric
+set samp 1000
+set view 60, 45
+set urange [0: 10]
+splot u*cos(10*u), u*sin(10*u), u lw 3

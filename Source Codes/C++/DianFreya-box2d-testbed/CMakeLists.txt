@@ -18,6 +18,10 @@ set (TESTBED_SOURCE_FILES
 	tests/projectile_motion.cpp
 	tests/projectile_dropped.cpp
 	tests/kineticenergy_collision.cpp
+	tests/kineticenergy_work.cpp	
+	tests/work_gravitationalforce.cpp	
+	tests/work_generalvariable.cpp	
+	tests/spring_work.cpp
 	tests/spring_test.cpp
 	tests/spring_twomasses.cpp
 	tests/verticalspring_test.cpp

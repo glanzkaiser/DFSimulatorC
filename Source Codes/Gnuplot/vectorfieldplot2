@@ -1,0 +1,8 @@
+set xrange [-3*pi:3*pi]
+set yrange [-pi:pi]
+set iso 20
+set samp 20
+unset key
+a = 2
+plot "data" using 1:2:(-a*sin($1)*cos($2)):(a*cos($1)*sin($2)) \
+	with vectors size .06, 15 filled

@@ -1,0 +1,6 @@
+set xrange [-5:5]
+set yrange [-5:5]
+dx(x) = x
+dy(x) = 2*x
+set title 'Vector field F(x,y) = <x, 2y>'
+plot "data" using 1:2:(dx($1)):(dy($2)) w vec title 'F(x,y) = <x, 2y>'

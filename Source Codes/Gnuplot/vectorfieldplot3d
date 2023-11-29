@@ -1,0 +1,9 @@
+set xr [-1:1]
+set yr [-1:1]
+set view 50, 340
+set iso 100
+set samp 100
+unset key
+a = .2
+splot "++" using 1:2: (cos($1**2+$2**2)) : (-a*sin($1)*cos($2)):(a*cos($1)*sin($2)): (0) \
+	with vectors size .02, 15 filled

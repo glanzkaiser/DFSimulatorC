@@ -1,0 +1,10 @@
+set xrange [-4:4]
+set yrange [-4:4]
+set iso 200
+set samp 200
+set key rmargin
+unset surf
+set contour base
+set cntrparam levels auto 9
+set view map
+splot sin(y**2+x**2) - cos(x**2) title "sin(x^{2} + y^{2}) - cos(x^{2})"
