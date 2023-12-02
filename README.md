@@ -37,8 +37,3 @@ https://youtu.be/6FK19XRSh6U
 4. ReactPhysics3D
 5. OpenGL, GLEW, GLFW, SFML, SOIL
 (I make the full references tidy in the book)
-
-# Glanz Journey
-Truth will be Revealed. Nothing to hide. On how I make my living and went through this life, before I completely off communication with human and internet.
-
-<a href="https://github.com/glanzkaiser/DFSimulatorC/blob/main/GlanzJourney.pdf">Click</a>
