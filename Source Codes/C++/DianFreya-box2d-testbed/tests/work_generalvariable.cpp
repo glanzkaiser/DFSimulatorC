@@ -77,7 +77,7 @@ public:
 		b2Fixture *groundBodyFixture = groundBody->CreateFixture(&groundFixtureDef);
 
 		{
-			// Create the sack on a triangle
+			// Create the box on the left
 			b2PolygonShape boxShape;
 			boxShape.SetAsBox(a, b); // width and length of the box
 			
@@ -95,7 +95,7 @@ public:
 			m_boxl = m_world->CreateBody(&boxBodyDef);
 			b2Fixture *boxFixture = m_boxl->CreateFixture(&boxFixtureDef);
 			
-			// Create the box hanging on the right
+			// Create the cart on the right
 			b2PolygonShape boxShape2;
 			boxShape2.SetAsBox(a, b); // width and length of the box
 			
@@ -107,7 +107,7 @@ public:
 			
 			b2BodyDef boxBodyDef2;
 			boxBodyDef2.type = b2_dynamicBody;
-			boxBodyDef2.position.Set(9.0f, L);
+			boxBodyDef2.position.Set(5.0f, L);
 			// boxBodyDef2.fixedRotation = true;
 
 			m_boxr = m_world->CreateBody(&boxBodyDef2);
@@ -116,7 +116,7 @@ public:
 			// Create the Pulley 
 			b2PulleyJointDef pulleyDef;
 			b2Vec2 anchor1(-6.0f, 11.5f); // the position of the end string of the left cord to connect to the sack
-			b2Vec2 anchor2(8.0f, L); // the position of the end string of the right cord to connect to the right puller
+			b2Vec2 anchor2(4.0f, L); // the position of the end string of the right cord to connect to the right puller
 			b2Vec2 groundAnchor1(-1.0f, b + L ); // the string of the cord is tightened at (-1.0f, b+L)
 			b2Vec2 groundAnchor2(1.5f,  b + L);  // the string of the cord is tightened at (1.5f, b+L)
 			// the last float is the ratio
@@ -135,7 +135,7 @@ public:
 		switch (key)
 		{
 		case GLFW_KEY_D:
-			m_boxr->ApplyForceToCenter(b2Vec2(-16000.0f, 0.0f), true);			
+			m_boxr->ApplyForceToCenter(b2Vec2(-13500.0f, 0.0f), true);			
 			break;
 		case GLFW_KEY_F:
 			m_boxr->SetLinearVelocity(b2Vec2(-14.0f, 0.0f));					
@@ -157,10 +157,9 @@ public:
 
 		float ke1 = 0.5*m1*((velocity1.x)*(velocity1.x));
 		float ke2 = 0.5*m2*((velocity2.x)*(velocity2.x));
-		float a = (m2-m1*sinf(30*DEGTORAD))*g / (m1+m2);
-		float T = (m1*a) + (m1*g*sinf(30*DEGTORAD));
+		float T = 25.0f;
 		
-		g_debugDraw.DrawString(5, m_textLine, "Press D to push the cart to negative x axis with force of 16,000 N");
+		g_debugDraw.DrawString(5, m_textLine, "Press D to push the cart to negative x axis with force of 13,500 N");
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Press F to push the cart to negative x axis with linear velocity of 14 m/s");
 		m_textLine += m_textIncrement;
@@ -180,9 +179,6 @@ public:
 		g_debugDraw.DrawString(5, m_textLine, "Right Cart Mass = %.6f", massData2.mass);
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Right Cart Kinetic Energy = %.6f", ke2);
-		m_textLine += m_textIncrement;
-
-		g_debugDraw.DrawString(5, m_textLine, "Acceleration = %.6f", a);
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "The tension of the cord = %.6f", T);
 		m_textLine += m_textIncrement;
