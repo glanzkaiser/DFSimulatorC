@@ -20,11 +20,15 @@ set (TESTBED_SOURCE_FILES
 	tests/kineticenergy_collision.cpp	
 	tests/work_cratependulum.cpp	
 	tests/kineticenergy_work.cpp	
+	tests/work_conveyorbelt.cpp
 	tests/work_gravitationalforce.cpp
 	tests/work_pulleyelevator.cpp	
 	tests/work_generalvariable.cpp	
 	tests/work_verticalspringupward.cpp	
 	tests/spring_work.cpp
+	tests/potentialenergy_looptheloop.cpp
+	tests/potentialenergy_verticalspringupward.cpp
+	tests/potentialenergy_runawaytruck.cpp
 	tests/spring_test.cpp
 	tests/spring_twomasses.cpp
 	tests/verticalspring_test.cpp

@@ -1,0 +1,34 @@
+#!/usr/local/bin/gnuplot -persist
+# set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+# set output 'polar_quadrants.1.png'
+unset border
+set dummy t, y
+set ttics format "%g°"
+set grid polar 0.523599
+set grid noxtics nomxtics noytics nomytics noztics nomztics rtics nomrtics \
+ nox2tics nomx2tics noy2tics nomy2tics nocbtics nomcbtics
+set grid layerdefault   lt black linewidth 0.300 dashtype solid,  lt black linewidth 0.300 dashtype solid
+set raxis
+unset key
+set polar
+set size ratio 1 1,1
+set style data lines
+set mttics 3.000000
+unset xtics
+set ytics axis in scale 0.5,0.25 mirror norotate  offset character -1, 0, 0 autojustify
+set ytics  norangelimit 2
+set ztics border in scale 0.5,0.25 nomirror norotate  autojustify
+set cbtics border in scale 0.5,0.25 mirror norotate  autojustify
+set rtics axis in scale 0.5,0.25 nomirror norotate  offset character 0, 2, 0 autojustify
+set ttics axis in scale 1,0.5 nomirror norotate  autojustify
+set ttics  norangelimit 0.00000,30 font ":Italic"
+set xrange [ 0.00000 : 6.50000 ] noreverse nowriteback
+set x2range [ * : * ] noreverse writeback
+set yrange [ -6.50000 : 0.00000 ] noreverse nowriteback
+set y2range [ * : * ] noreverse writeback
+set zrange [ * : * ] noreverse writeback
+set cbrange [ * : * ] noreverse writeback
+set rrange [ 0.00000 : 6.10000 ] noreverse nowriteback
+set colorbox vertical origin screen 0.9, 0.2 size screen 0.05, 0.6 front  noinvert bdefault
+NO_ANIMATION = 1
+plot t lt 3 lw 2, -t lt 4 lw 2

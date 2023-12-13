@@ -1,4 +1,6 @@
-// just change this into something else, already save at symbolicmatrixinverse.cpp
+// g++ -o result symbolicmatrixinverse.cpp -lsymbolicc++
+// make 
+// (adjust the cpp filename first)
 #include <iostream>
 #include "symbolicc++.h"
 using namespace std;
