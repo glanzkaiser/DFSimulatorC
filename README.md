@@ -41,4 +41,4 @@ https://youtu.be/6FK19XRSh6U
 # GlanzJourney:
 Notes on my journey in this life, almost like diary and some consciousness come from other worlds.
 
-<a href="https://drive.google.com/file/d/1YEZBTm38yqz7Lwnx7pKkSfi2tcZcSCX3/view?usp=drive_link">Click</a>
+<a href="https://drive.google.com/file/d/1yNuUBxb-6yc8ElR-l4Ru0E2ZwK7LY3W_/view?usp=drive_link">Click</a>
