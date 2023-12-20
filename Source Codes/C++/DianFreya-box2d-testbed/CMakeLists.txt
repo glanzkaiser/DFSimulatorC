@@ -29,6 +29,8 @@ set (TESTBED_SOURCE_FILES
 	tests/potentialenergy_looptheloop.cpp
 	tests/potentialenergy_verticalspringupward.cpp
 	tests/potentialenergy_runawaytruck.cpp
+	tests/potentialenergy_springincline.cpp
+	tests/potentialenergy_marblespringgun.cpp
 	tests/spring_test.cpp
 	tests/spring_twomasses.cpp
 	tests/verticalspring_test.cpp
