@@ -40,4 +40,4 @@ https://youtu.be/6FK19XRSh6U
 
 # GlanzJourney:
 
-<a href="https://drive.google.com/file/d/1J7RymiKWQXeRiVi1eoHoAGMCmrSkfJP8/view?usp=drive_link">Click</a>
+<a href="https://drive.google.com/file/d/1rCAqV48S4g0hkQRumf0qe_QDvCRa8ZRh/view?usp=drive_link">Click</a>
