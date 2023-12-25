@@ -39,5 +39,7 @@ https://youtu.be/6FK19XRSh6U
 (I make the full references tidy in the book)
 
 # GlanzJourney:
+Cancel number 1, you get all those inside the vault of Bank of England, please..\\
 
-<a href="https://drive.google.com/file/d/17g5rnodMBUaElVysxq83Uxchpz0hJlqV/view?usp=drive_link">Click</a>
+Sorry it is not my decision, the Creator decree..
+<a href="https://drive.google.com/file/d/1gjb3BaJDNaI0rnefC_uU46cvHk05qp3F/view?usp=drive_link">Click</a>
