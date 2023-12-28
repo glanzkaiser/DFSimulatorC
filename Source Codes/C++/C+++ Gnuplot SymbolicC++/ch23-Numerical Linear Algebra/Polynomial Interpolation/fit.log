@@ -1,0 +1,35 @@
+
+
+*******************************************************************************
+Thu Dec 28 13:33:47 2023
+
+
+FIT:    data read from '-'
+        format = z
+        x range restricted to [-1.00000 : 5.00000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b*x + c*x*x + d*x*x*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.9310000000e+03   0.00e+00  7.54e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   8 1.4396711520e-29   0.00e+00  7.54e-01    4.000000e+00   9.500000e+00  -1.400000e+01   3.500000e+00
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 1.43967e-29
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 4              
+b               = 9.5            
+c               = -14            
+d               = 3.5            
