@@ -40,7 +40,4 @@ https://youtu.be/6FK19XRSh6U
 
 # GlanzJourney
 
-<a href="https://drive.google.com/file/d/12R1TxFdUVHUG--7IVV7Y2nVnRg1Wgt-P/view?usp=drive_link">2023</a>
-
-<a href="https://drive.google.com/file/d/1yB02UPDlNMAtDGeCViYVPGtf6VWnL5pJ/view?usp=drive_link">2024</a>
-
+You got nothing on me. :D
