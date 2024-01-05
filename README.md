@@ -41,3 +41,5 @@ https://youtu.be/6FK19XRSh6U
 # GlanzJourney
 
 You got nothing on me. :D
+
+<a href="https://drive.google.com/file/d/1_dIt-jOj7FzRWJteL--fd_TQGrR8U3k0/view?usp=drive_link">Click</a>
