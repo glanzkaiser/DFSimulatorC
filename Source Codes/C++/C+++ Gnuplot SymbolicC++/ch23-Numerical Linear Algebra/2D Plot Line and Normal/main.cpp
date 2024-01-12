@@ -27,7 +27,7 @@ int main() {
 	// we choose the value for (x0,y0) = (0,0) the origin	
 	float xo = 0;
 	float yo = 0;
-	// normal n = (a,b) = (2,3)
+	// normal n = (a,b) = (2,1.3)
 	float a = 2;
 	float b = 1.3;
 	// to determine the vector that is passing through the origin (0,0) and (x,y) we choose x then we obtain value for y, y = mx+c

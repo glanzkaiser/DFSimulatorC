@@ -1,5 +1,5 @@
 // g++ -o result main.cpp 
-
+// only work for symmetric matrix
 #include <eigen3/Eigen/Dense> // header file
 #include <iostream>
  

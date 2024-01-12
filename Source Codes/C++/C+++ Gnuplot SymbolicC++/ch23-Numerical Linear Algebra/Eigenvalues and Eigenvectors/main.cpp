@@ -1,3 +1,4 @@
+// http://yang.amp.i.kyoto-u.ac.jp/~yyama/computer/FAQ/eigen/eigensystem.html
 // g++ -o result main.cpp 
 
 #include <eigen3/Eigen/Eigenvalues> // header file
@@ -6,7 +7,8 @@
 int main()
 {
 Eigen::Matrix<double, 2, 2> A; // declare a real (double) 2x2 matrix
-//A << 0, 2, 1, 0; // defined the matrix A
+// defined the matrix A
+//A << 0, 2, 1, 0; 
 A(0,0) = 3.0;
 A(0,1) = 0.0;
 A(1,0) = 8.0;
