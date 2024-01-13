@@ -37,7 +37,3 @@ https://youtu.be/6FK19XRSh6U
 4. ReactPhysics3D
 5. OpenGL, GLEW, GLFW, SFML, SOIL
 (I make the full references tidy in the book)
-
-# GlanzJourney
-
- <a href="https://drive.google.com/file/d/1SxyjdHbXtGT97zizecV2vYKAM_cir4Cp/view?usp=drive_link">Click</a>
