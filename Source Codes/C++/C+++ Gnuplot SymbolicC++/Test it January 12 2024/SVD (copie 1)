@@ -1,0 +1,17 @@
+// https://stackoverflow.com/questions/3856072/single-value-decomposition-implementation-c
+// For large matrices, using the "dc" option to Armadillo's SVD can provide considerable speedups --
+//  it enables the divide-and-conquer algorithm. For example, arma::svd(U, S, V, inMat, "dc");
+
+#include <armadillo>
+
+// Input matrix of type float
+arma::fmat inMat;
+
+// Output matrices
+arma::fmat U;
+arma::fvec S;
+arma::fmat V;
+
+// Perform SVD
+arma::svd(U, S, V, inMat);
+

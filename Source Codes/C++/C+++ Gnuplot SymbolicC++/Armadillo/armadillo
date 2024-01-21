@@ -1,0 +1,21 @@
+// g++ example.cpp -o example -std=c++11 -O2 -larmadillo
+  
+https://sourceforge.net/projects/arma/files/armadillo-12.6.7.tar.xz/download
+
+#include <iostream>
+#include <armadillo>
+
+using namespace std;
+using namespace arma;
+
+int main()
+  {
+  mat A(4, 5, fill::randu);
+  mat B(4, 5, fill::randu);
+  
+  cout << A*B.t() << endl;
+  
+  return 0;
+  }
+
+
