@@ -69,7 +69,6 @@ int main() {
 		cout <<ptrvec[i]<< ' ' << endl;	
 	}	
 	
-	
 	cout << endl;
 	cout << "Matrix A is: " << endl;
 	

@@ -59,12 +59,11 @@ int init_resources() {
 
 	// Create our own temporary buffer
 	point graph[2000];
-	point graph_derivative[2000];
 
 	// Fill it in just like an array
 	for (int i = 0; i < 2000; i++) 
 	{
-		float x = (i ) / 10.0;
+		float x = (i -1000) / 10.0;
 
 		graph[i].x = x;
 		graph[i].y = (x*x*x) + (x*x);	
@@ -254,7 +253,7 @@ void display() {
 		// Fill it in just like an array
 		for (int i = 0; i < 2000; i++) 
 		{
-			float var_x = (i ) / 10.0;
+			float var_x = (i - 1000) / 10.0;
 			double const phi{var_x};
 			auto const x{::boost::math::differentiation::make_fvar<double, 5>(phi)}; // to find derivative till order 5
 			auto const dx{get_x_coordinate(x*x*x + x*x)}; // we define the function f(x) here : get_x_coordinate(f(x))

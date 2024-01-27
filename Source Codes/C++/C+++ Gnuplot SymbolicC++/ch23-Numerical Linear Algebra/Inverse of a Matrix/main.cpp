@@ -111,8 +111,8 @@ for (int i = 0; i < row; i++)
 
 int main() 
 {
-	int M[N][N] = {
-	{1,0,0}, {0,-3,0}, {0,0,2}};
+	int M[N][N] = {{1,0,2},{-3,4,6},{-1,-2,3}};
+
 	float inv[N][N];
 	cout << "The input matrix is :\n"; 
 	display(M,3,3);
