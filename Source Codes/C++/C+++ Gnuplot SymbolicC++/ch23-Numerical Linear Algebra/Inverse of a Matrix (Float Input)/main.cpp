@@ -45,7 +45,7 @@ int determinantOfMatrix(float M[N][N], int dimension)
 	return Det;
 }
 
-void ADJ(float M[N][N],int adj[N][N])
+void ADJ(float M[N][N],float adj[N][N])
 //to find adjoint matrix 
 {
 	if (N == 1) 
@@ -76,7 +76,7 @@ bool INV(float M[N][N], float inv[N][N])
 	cout<<endl;
 	return false;
 	}
-	int adj[N][N]; 
+	float adj[N][N]; 
 	ADJ(M, adj);
 
 	for (int i=0; i<N; i++) 

@@ -50,7 +50,7 @@ int main() {
 	float w1 = 0;
 	float w2 = 3;
 	float w3 = 2;
-
+	
 	float vect_u[] = { u1, u2, u3 };
 	float vect_v[] = { v1, v2, v3 };
 	float vect_w[] = { w1, w2, w3 };
@@ -152,7 +152,7 @@ int main() {
 	pts_C_dx.push_back(w1);
 	pts_C_dy.push_back(w2);
 	pts_C_dz.push_back(w3);
-	// Create a vector from cross product of vectors u and v
+	// Create a vector from cross product of vectors v and w
 	pts_D_x .push_back(o);
 	pts_D_y .push_back(o);
 	pts_D_z .push_back(o);
