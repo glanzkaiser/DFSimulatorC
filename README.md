@@ -38,5 +38,3 @@ https://youtu.be/6FK19XRSh6U
 5. OpenGL, GLEW, GLFW, SFML, SOIL
 (I make the full references tidy in the book)
 
-# GlanzJourney:
-<a href="https://drive.google.com/file/d/1TkUh5AXpimhK6Eb1ZvgzrZZNPulgjqU6/view?usp=drive_link">Click</a> 
