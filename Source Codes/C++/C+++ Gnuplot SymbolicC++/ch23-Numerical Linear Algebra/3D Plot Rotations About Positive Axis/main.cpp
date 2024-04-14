@@ -40,11 +40,11 @@ int main() {
 	X.load("vectorX.txt");
 	cout <<"Vector x:" << "\n" << X <<endl;
 	
-	// Create standard matrix for rotation about x-axis
+	// Create standard matrix for rotation about positive x-axis
 	float matrixAx[N][N] = {};
-	// Create standard matrix for rotation about y-axis
+	// Create standard matrix for rotation about positive y-axis
 	float matrixAy[N][N] = {};
-	// Create standard matrix for rotation about z-axis
+	// Create standard matrix for rotation about positive z-axis
 	float matrixAz[N][N] = {};
 	for (int i = 0; i < N; ++i)
 	{

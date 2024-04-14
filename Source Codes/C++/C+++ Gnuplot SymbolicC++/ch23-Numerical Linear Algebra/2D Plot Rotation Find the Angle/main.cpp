@@ -63,26 +63,26 @@ int main() {
 	}
 	
 	cout <<"Matrix A  :" << "\n" << ArmaA <<endl;
-
+	
 	arma::mat Xrotate = ArmaA*X ;
 	cout <<"The rotated vector x:" << "\n" << Xrotate <<endl;
 
 	// Formula to find theta
-	if (acos(a) < 0 &&  asin(c) < 0 )
+	if (a < 0 && c > 0 ) // Second quadrant
 	{
-		cout <<"The angle of rotation is (in degree):" << " " << (acos(a)+ pi) * RADTODEG <<endl;
+		cout <<"The angle of rotation is (in degree) :" << " " << (asin(c)+ pi/2) * RADTODEG <<endl;
 	}	
-	else if ( acos(a) < 0 &&  asin(c) > 0)
+	else if (a < 0 &&  c < 0) // third quadrant
 	{
-		cout <<"The angle of rotation is (in degree):" << " " << (acos(a)+ pi/2)  * RADTODEG <<endl;
+		cout <<"The angle of rotation is (in degree) :" << " " << (acos(-a)+ pi)  * RADTODEG <<endl;
 	}
-	else if ( acos(a) > 0 &&  asin(c) < 0)
+	else if (a > 0 &&  c < 0) // fourth quadrant
 	{
-		cout <<"The angle of rotation is (in degree):" << " " << ( acos(a)+ ((3*pi)/2) ) * RADTODEG <<endl;
+		cout <<"The angle of rotation is (in degree) : " << " " << ( acos(a)+ ((3*pi)/2) ) * RADTODEG <<endl;
 	}
-	else if ( acos(a) > 0 &&  asin(c) > 0)
+	else if (a > 0 &&  c > 0) // FIrst quadrant
 	{
-		cout <<"The angle of rotation is (in degree):" << " " << acos(a) * RADTODEG <<endl;
+		cout <<"The angle of rotation is (in degree) :" << " " << acos(a) * RADTODEG <<endl;
 	}
 	
 	// We use a separate container for each column, like so:
