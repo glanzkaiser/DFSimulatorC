@@ -1,0 +1,7 @@
+# This file is called   force.dat
+# Force-Deflection data for a beam and a bar
+# Deflection    Col-Force       Symbol 
+0.000              0              37
+0.001            104             33
+0.002            202            33
+0.003            298            37

@@ -13,7 +13,7 @@ int main() {
 	Gnuplot gp;
 
 	// Don't forget to put "\n" at the end of each line!
-	gp << "set xrange [-10:10]\nset yrange [-960:960]\n";
+	gp << "set xrange [-50:10]\nset yrange [-960:960]\n";
 	// '-' means read from stdin.  The send1d() function sends data to gnuplot's stdin.
 	gp << "f(x) = (x**3)-(2*x**2) + x + 5\n";
 	gp << "g(x) = (x**3)-(2*x**2) + x + 180\n";
