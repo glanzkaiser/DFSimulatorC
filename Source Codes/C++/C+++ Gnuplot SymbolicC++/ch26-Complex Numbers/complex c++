@@ -1,0 +1,25 @@
+
+
+proj() – It returns the projection of z(complex number) onto the Riemann sphere. The projection of z is z, except for complex infinities, which are mapped to the complex value with a real component of INFINITY and an imaginary component of 0.0 or -0.0 (where supported), depending on the sign of the imaginary component of z. 
+
+// Illustrating the use of proj()
+
+#include <iostream>
+using namespace std;
+
+// For std::complex, std::proj
+#include <complex>
+
+// driver program
+int main()
+{
+	std::complex<double> c1(1, 2);
+	cout << "proj" << c1 << " = " << proj(c1) << endl;
+
+	std::complex<double> c2(INFINITY, -1);
+	cout << "proj" << c2 << " = " << proj(c2) << endl;
+
+	std::complex<double> c3(0, -INFINITY);
+	cout << "proj" << c3 << " = " << proj(c3) << endl;
+}
+

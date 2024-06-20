@@ -1,0 +1,60 @@
+How to Rotate Models by using OpenGL Maths (GLM)
+
+What is it about the dreaded rotation matrix that makes it so daunting to try and understand? For me it was not having a clue about what the sine and cosine terms inside the model matrix represented.
+
+It turns out that those horrible collection of sine and cosine terms which are multiplied together, are nothing more than high school trigonometry. Understandably, people are going to be mystified if they're not shown what the internal workings (i.e. relationships) of rotation matrices represent.
+
+I've made this tutorial for the following purposes...
+
+    To show how to rotate models in OpenGL by using the GLM maths library
+    To demonstrate the difference between local and global axis rotations
+    To graphically animate the geometric representations of rotation matrices
+
+Typically, most people start off by manually entering vertex data into an array, to render basic shapes such as triangles, squares and cubes, but it’s practically impossible to create highly detailed models by taking that approach.
+
+Graphics in modern computer games, can to some extent be considered cheating, simply because we now use sophisticated 3D modelling software to draw fancy looking models, and then import those models (with minimal effort, e.g. by using the ASSIMP model import library) into our games… and you couldn’t do that in the good old days.
+
+Assisted by some graphics maths library such as GLM, we can then apply all sorts of fancy transformations to our ready-built models, as exported from Blender for example.
+
+We can also enhance our already nice-looking models to look even more realistic by learning how to apply lighting, by implementing the Phong lighting model for example. We now potentially have the basis of some game that we might want to add various physics routines to…
+
+
+PROBLEM:
+can be compiled but cannot be run.
+
+Object :
+https://free3d.com/3d-model/airplane-v1--79106.html
+https://free3d.com/3d-model/spider-animated-low-poly-and-game-ready-87147.html
+
+Assimp
+Building the library from scratch
+
+First you need to install cmake. Now just get the code from github or download the latest version from the webside. to build the library just open a command-prompt / bash, navigate into the repo-folder and run cmake via:
+
+cmake CMakeLists.txt
+A project-file of your default make-system ( like gnu-make on linux or Visual-Studio on Windows ) will be generated. Run the build and you are done. You can find the libs at assimp/lib and the dll’s / so’s at bin.
+
+or use this command
+
+mkdir build &&
+cd build &&
+cmake -DCMAKE_INSTALL_PREFIX=/usr .. &&
+make
+
+make install
+
+the shared library will be located in /usr/lib
+the header files will be located in /usr/include/assimp
+
+you can link to libassimp.so at /usr/lib with -lassimp
+Now you can try to import 3D object file (.OBJ) into your C++ code, combined with GLAD, GLFW, and SOIL you
+can learn about rotating, scaling, and do transformation on the 3D object.
+
+https://github.com/assimp/assimp
+
+
+
+The Asset Importer Library
+
+Open Asset Import Library is a library to load various 3d file formats into a shared, in-memory imediate format. It supports more than 40 file formats for import and a growing selection of file formats for export. 
+Written in C++, it is available under a liberal BSD license. There is a C API as well as bindings to various other languages, including C#/.net, Python and D. Assimp loads all input model formats into one straightforward data structure for further processing. This feature set is augmented by various post processing tools, including frequently-needed operations such as computing normal and tangent vectors.
