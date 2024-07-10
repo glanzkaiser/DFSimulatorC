@@ -1,4 +1,4 @@
-// g++ -o result main.cpp
+// g++ -o result main.cpp -larmadillo -lginac -lcln
 // Merci beaucoup Freya..
 
 #include <iostream>
