@@ -1,0 +1,1 @@
+/bin/c++ -rdynamic CMakeFiles/2D_Fourier_Series_Animation_with_Imgui.dir/src/fourier.cpp.o -o 2D_Fourier_Series_Animation_with_Imgui  libimgui.a -lGLEW -lglfw -lGL 

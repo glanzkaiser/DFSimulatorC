@@ -1,0 +1,31 @@
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/constants.cpp.cmake.in
+               ${CMAKE_CURRENT_SOURCE_DIR}/constants.cpp
+               @ONLY
+               )
+
+set(COMMON_SOURCES ${COMMON_SOURCES}
+    ${CMAKE_CURRENT_SOURCE_DIR}/constants.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/gl_error_manager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/index_buffer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/renderer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/shader.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/texture.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vertex_array.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vertex_buffer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vertex_buffer_layout.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test_batch_colors.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test_batch_textures.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test_clear_color.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test_dynamic_buffer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test_color_uniform.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/test/test_texture_2d.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/stb_image/stb_image.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui_demo.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui_draw.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui_impl_glfw.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui_impl_opengl3.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui_widgets.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui.cpp
+    PARENT_SCOPE
+)

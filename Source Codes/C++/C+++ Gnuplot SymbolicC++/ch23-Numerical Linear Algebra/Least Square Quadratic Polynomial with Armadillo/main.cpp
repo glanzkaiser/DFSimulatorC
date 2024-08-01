@@ -83,7 +83,7 @@ int main(int argc, char** argv)
 	cout << "inv(M^T * M): " << endl << arma::inv(M_transpose * M) << endl;
 	cout << "inv(M^T * M) * M^T: " << endl << arma::inv(M_transpose * M)*M_transpose << endl;
 	cout << "v* = inv(M^T * M) * M^T * y : " << endl << arma::inv(M_transpose * M)*M_transpose * Y << endl;
-	cout << "Least Square Cubic Polynomial Fit :" << endl;
+	cout << "Least Square Quadratic Polynomial Fit :" << endl;
 	cout << ("y = ");
 	printf("%.3f + ", V[0]);
 	printf("%.3f x + ", V[1]);

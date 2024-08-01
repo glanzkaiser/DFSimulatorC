@@ -1,5 +1,5 @@
 // g++ -o result main.cpp
-// Merci beaucoup Freya..
+// Merci beaucoup Freya.. et Sentinel..
 // C++ program to find the least square cubic polynomial
 
 #include <iostream>
@@ -12,9 +12,9 @@
 using namespace std;
 using namespace arma;
 
-const int N = 5;
-const int C1 = 3;
-const int C2 = 5;
+const int N = 16;
+const int C1 = 4;
+const int C2 = 16;
 
 float* vecx() {
 	static float x[N];
@@ -87,6 +87,7 @@ int main(int argc, char** argv)
 	cout << ("y = ");
 	printf("%.3f + ", V[0]);
 	printf("%.3f x + ", V[1]);
-	printf("%.3f x^2 ", V[2]);
+	printf("%.3f x^2 + ", V[2]);
+	printf("%.3f x^3 ", V[3]);
 	cout <<endl;
 }

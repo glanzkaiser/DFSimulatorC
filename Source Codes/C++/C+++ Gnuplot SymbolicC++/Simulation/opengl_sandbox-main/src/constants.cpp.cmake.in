@@ -1,0 +1,10 @@
+#include "constants.h"
+
+const std::string shader_colors_path = "@RES_PATH@/shaders/test_batch_colors.shader";
+const std::string shader_textures_path = "@RES_PATH@/shaders/test_batch_textures.shader";
+const std::string shader_color_uniform_path = "@RES_PATH@/shaders/test_color_uniform.shader";
+const std::string shader_dynamic_buffer_path = "@RES_PATH@/shaders/test_dynamic_buffer.shader";
+const std::string shader_texture_path = "@RES_PATH@/shaders/test_texture_2d.shader";
+
+const std::string image_mines_path = "@RES_PATH@/textures/mines_paristech.png";
+const std::string image_cpp_path = "@RES_PATH@/textures/cpp.png";
