@@ -70,8 +70,8 @@ int main() {
 	matrixAx[2][2] = cos(theta*DEGTORAD);
 
 	matrixAy[0][0] = cos(theta*DEGTORAD);
-	matrixAy[0][2] = -sin(theta*DEGTORAD);
 	matrixAy[0][2] = sin(theta*DEGTORAD);
+	matrixAy[2][0] = -sin(theta*DEGTORAD);
 	matrixAy[2][2] = cos(theta*DEGTORAD);
 
 	matrixAz[0][0] = cos(theta*DEGTORAD);
