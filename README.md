@@ -30,6 +30,14 @@ https://youtu.be/6FK19XRSh6U
 | Projectile Dropped| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Projectile-Dropped.gif" width="83%">
 | Simple Pendulum   | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Simple-Pendulum.gif" width="83%">
 
+# Current Mathematics Simulation
+
+| Name 					| Simulation |
+| -------------     			| ------------- | 
+| Fourier Series    			| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-FourierSeries.gif" width="83%">
+| Linear Algebra: Gram-Schmidt, ...   	| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-LinearAlgebra.gif" width="83%">
+
+
 # Source of Learning:
 1. Fundamental of Physics 10th Edition, David Halliday, Jearl Walker, Robert Resnick
 2. Box2D
