@@ -35,7 +35,7 @@ https://youtu.be/6FK19XRSh6U
 | Name 					| Simulation |
 | -------------     			| ------------- | 
 | Fourier Series    			| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-FourierSeries.gif" width="83%">
-| Linear Algebra: Gram-Schmidt, ...   	| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-LinearAlgebra.gif" width="83%">
+| Linear Algebra: Rotation of Axes, Gram-Schmidt, Planes Intersection   	| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-LinearAlgebra.gif" width="83%">
 
 
 # Source of Learning:
