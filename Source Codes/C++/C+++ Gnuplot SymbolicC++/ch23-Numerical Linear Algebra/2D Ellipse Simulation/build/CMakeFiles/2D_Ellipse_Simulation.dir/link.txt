@@ -1,0 +1,1 @@
+/bin/c++ -rdynamic CMakeFiles/2D_Ellipse_Simulation.dir/src/ellipse.cpp.o -o 2D_Ellipse_Simulation  libimgui.a -lGLEW -lglfw -lGL 

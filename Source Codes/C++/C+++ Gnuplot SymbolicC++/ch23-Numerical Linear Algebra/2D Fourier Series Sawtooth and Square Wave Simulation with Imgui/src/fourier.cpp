@@ -74,13 +74,8 @@ int main(int argc, char const *argv[])
 		ImGui::Begin("Simulation", nullptr, window_flags);
 		ImDrawList *draw_list = ImGui::GetWindowDrawList();
 
-		float stroke = 150.0; //the center of the circle is at stroke = 0
-		std::vector<int> N = {1, 3, 5};
-		float r1 = 4.0 / (N[0] * M_PI) * scale;
-		float r2 = 4.0 / (N[1] * M_PI) * scale;
-		float r3 = 4.0 / (N[2] * M_PI) * scale;
-		float size_line = 3;
-
+		float stroke = 150.0; // the beginning of the drawing for Fourier animation, the center of the circle is at stroke = 0
+		
 		std::vector<ImVec2> circles;
 		std::vector<ImVec2> dots_circles;
 		std::vector<float> vec_r;
@@ -139,6 +134,7 @@ int main(int argc, char const *argv[])
 		//*/
 
 		// This for loop is to create all the circles
+		// circles.size() = num_sig
 		for (int jj = 0; jj < circles.size(); jj++)
 		{
 

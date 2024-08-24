@@ -50,6 +50,9 @@ int main(int argc, char** argv)
 		cout << "x[λ_" << i << "] :\n " << real(eigvec.col(i-1)) << endl;
 	}
 
+	cout << "det(A) = " << det(A) << endl;
+	cout << "rank(A) = " << arma::rank(A) << endl;
+
 	// show eigenvectors in matrix form 
 	// cout <<"Eigenvectors:" << "\n" << eigvec <<endl; 
 	// cout <<"Eigenvectors:" << "\n" << real(eigvec) <<endl; 
