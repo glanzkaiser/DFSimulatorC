@@ -1,0 +1,4 @@
+/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Hyperbola Type 2 Simulation/build/CMakeFiles/imgui.dir
+/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Hyperbola Type 2 Simulation/build/CMakeFiles/2D_Hyperbola_Type_2_Simulation.dir
+/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Hyperbola Type 2 Simulation/build/CMakeFiles/edit_cache.dir
+/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Hyperbola Type 2 Simulation/build/CMakeFiles/rebuild_cache.dir

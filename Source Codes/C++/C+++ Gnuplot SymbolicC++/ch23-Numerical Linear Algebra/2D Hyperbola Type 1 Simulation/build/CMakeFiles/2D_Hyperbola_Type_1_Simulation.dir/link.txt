@@ -1,0 +1,1 @@
+/bin/c++ -rdynamic CMakeFiles/2D_Hyperbola_Type_1_Simulation.dir/src/hyperbola.cpp.o -o 2D_Hyperbola_Type_1_Simulation  libimgui.a -lGLEW -lglfw -lGL 

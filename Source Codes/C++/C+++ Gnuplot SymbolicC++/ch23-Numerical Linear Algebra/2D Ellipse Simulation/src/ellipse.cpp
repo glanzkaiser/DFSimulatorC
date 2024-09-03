@@ -58,8 +58,8 @@ int main(int argc, char const *argv[])
 		ImGui::Begin("Simulation", nullptr, window_flags);
 		ImDrawList *draw_list = ImGui::GetWindowDrawList();
 
-		float strokex = 600.0; // the beginning of the drawing for ellipse simulation
-		float strokey = 410.0; // the beginning of the drawing for ellipse simulation
+		float strokex = 600.0; // the ellipse' center x-coordinate 
+		float strokey = 410.0; // the ellipse' center y-coordinate 
 
 		static int alpha = 51;
 		static int beta = 60;		
