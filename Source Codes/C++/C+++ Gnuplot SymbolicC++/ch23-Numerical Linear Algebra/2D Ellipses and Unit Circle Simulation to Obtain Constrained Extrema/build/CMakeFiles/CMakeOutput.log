@@ -1,0 +1,565 @@
+The system is: Linux - 5.13.12 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/3.22.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/3.22.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make -f Makefile cmTC_3c258/fast && /bin/make  -f CMakeFiles/cmTC_3c258.dir/build.make CMakeFiles/cmTC_3c258.dir/build
+make[1]: Entering directory '/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o
+/bin/cc   -v -o CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c,c++,d,fortran,go,objc,obj-c++
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3c258.dir/'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3c258.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccHUQlDA.s
+GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/fuse3"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/hamzstlib/LearnOpenGL/includes
+ /usr/include
+ //opt/hamzstlib/include/eigen3/Eigen
+ /usr/include/SDL2
+ /opt/hamzstlib/include
+ /opt/hamzstlib/include/opencv4
+ /opt/hamzstlib/grass80/include/grass
+ /opt/caldrazgames/include
+ /opt/hamzstlib/Kitware/install/paraview510/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3b1038acea5c8dc81e72571268020c0b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3c258.dir/'
+ as -v --64 -o CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o /tmp/ccHUQlDA.s
+GNU assembler version 2.37 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_3c258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c258.dir/link.txt --verbose=1
+/bin/cc  -v -rdynamic CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o -o cmTC_3c258 
+Using built-in specs.
+COLLECT_GCC=/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c,c++,d,fortran,go,objc,obj-c++
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3c258' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3c258.'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr5UGpc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3c258 /usr/lib/../lib/crt1.o /usr/lib/../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/usr/lib/../lib -L/usr/local/lib/../lib -L/opt/hamzstlib/Physics/bulletinstall/lib/../lib -L/opt/hamzstlib/trilinos/lib/../lib -L/lib64/../lib -L/opt/hamzstlib/lib/../lib -L/opt/hamzstlib/Kitware/install/VTK/lib/../lib -L/opt/hamzstlib/grass80/lib/../lib -L/opt/hamzstlib/Kitware/install/paraview510/lib/../lib -L/opt/caldrazgames/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/local/lib -L/opt/hamzstlib/Physics/bulletinstall/lib -L/opt/hamzstlib/trilinos/lib -L/lib64 -L/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux -L/opt/hamzstlib/lib -L/opt/hamzstlib/lib/openmpi -L/opt/hamzstlib/Kitware/install/VTK/lib -L/opt/hamzstlib/grass80/lib -L/opt/hamzstlib/Kitware/install/paraview510/lib -L/opt/hamzstlib/include/opencv4 -L/opt/caldrazgames/lib -L/opt/caldrazgames/lib/OGRE -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3c258' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3c258.'
+make[1]: Leaving directory '/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/hamzstlib/LearnOpenGL/includes]
+    add: [/usr/include]
+    add: [//opt/hamzstlib/include/eigen3/Eigen]
+    add: [/usr/include/SDL2]
+    add: [/opt/hamzstlib/include]
+    add: [/opt/hamzstlib/include/opencv4]
+    add: [/opt/hamzstlib/grass80/include/grass]
+    add: [/opt/caldrazgames/include]
+    add: [/opt/hamzstlib/Kitware/install/paraview510/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  end of search list found
+  collapse include dir [/opt/hamzstlib/LearnOpenGL/includes] ==> [/opt/hamzstlib/LearnOpenGL/includes]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  collapse include dir [//opt/hamzstlib/include/eigen3/Eigen] ==> [//opt/hamzstlib/include/eigen3/Eigen]
+  collapse include dir [/usr/include/SDL2] ==> [/usr/include/SDL2]
+  collapse include dir [/opt/hamzstlib/include] ==> [/opt/hamzstlib/include]
+  collapse include dir [/opt/hamzstlib/include/opencv4] ==> [/opt/hamzstlib/include/opencv4]
+  collapse include dir [/opt/hamzstlib/grass80/include/grass] ==> [/opt/hamzstlib/grass80/include/grass]
+  collapse include dir [/opt/caldrazgames/include] ==> [/opt/caldrazgames/include]
+  collapse include dir [/opt/hamzstlib/Kitware/install/paraview510/include] ==> [/opt/hamzstlib/Kitware/install/paraview510/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  implicit include dirs: [/opt/hamzstlib/LearnOpenGL/includes;/usr/include;//opt/hamzstlib/include/eigen3/Eigen;/usr/include/SDL2;/opt/hamzstlib/include;/opt/hamzstlib/include/opencv4;/opt/hamzstlib/grass80/include/grass;/opt/caldrazgames/include;/opt/hamzstlib/Kitware/install/paraview510/include;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/make -f Makefile cmTC_3c258/fast && /bin/make  -f CMakeFiles/cmTC_3c258.dir/build.make CMakeFiles/cmTC_3c258.dir/build]
+  ignore line: [make[1]: Entering directory '/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/cc   -v -o CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c c++ d fortran go objc obj-c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3c258.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3c258.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccHUQlDA.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/fuse3"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/hamzstlib/LearnOpenGL/includes]
+  ignore line: [ /usr/include]
+  ignore line: [ //opt/hamzstlib/include/eigen3/Eigen]
+  ignore line: [ /usr/include/SDL2]
+  ignore line: [ /opt/hamzstlib/include]
+  ignore line: [ /opt/hamzstlib/include/opencv4]
+  ignore line: [ /opt/hamzstlib/grass80/include/grass]
+  ignore line: [ /opt/caldrazgames/include]
+  ignore line: [ /opt/hamzstlib/Kitware/install/paraview510/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3b1038acea5c8dc81e72571268020c0b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3c258.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o /tmp/ccHUQlDA.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_3c258]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c258.dir/link.txt --verbose=1]
+  ignore line: [/bin/cc  -v -rdynamic CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o -o cmTC_3c258 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c c++ d fortran go objc obj-c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3c258' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3c258.']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr5UGpc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3c258 /usr/lib/../lib/crt1.o /usr/lib/../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/usr/lib/../lib -L/usr/local/lib/../lib -L/opt/hamzstlib/Physics/bulletinstall/lib/../lib -L/opt/hamzstlib/trilinos/lib/../lib -L/lib64/../lib -L/opt/hamzstlib/lib/../lib -L/opt/hamzstlib/Kitware/install/VTK/lib/../lib -L/opt/hamzstlib/grass80/lib/../lib -L/opt/hamzstlib/Kitware/install/paraview510/lib/../lib -L/opt/caldrazgames/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/local/lib -L/opt/hamzstlib/Physics/bulletinstall/lib -L/opt/hamzstlib/trilinos/lib -L/lib64 -L/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux -L/opt/hamzstlib/lib -L/opt/hamzstlib/lib/openmpi -L/opt/hamzstlib/Kitware/install/VTK/lib -L/opt/hamzstlib/grass80/lib -L/opt/hamzstlib/Kitware/install/paraview510/lib -L/opt/hamzstlib/include/opencv4 -L/opt/caldrazgames/lib -L/opt/caldrazgames/lib/OGRE -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /usr/lib/../lib/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccr5UGpc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3c258] ==> ignore
+    arg [/usr/lib/../lib/crt1.o] ==> obj [/usr/lib/../lib/crt1.o]
+    arg [/usr/lib/../lib/crti.o] ==> obj [/usr/lib/../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/lib/../lib] ==> dir [/usr/local/lib/../lib]
+    arg [-L/opt/hamzstlib/Physics/bulletinstall/lib/../lib] ==> dir [/opt/hamzstlib/Physics/bulletinstall/lib/../lib]
+    arg [-L/opt/hamzstlib/trilinos/lib/../lib] ==> dir [/opt/hamzstlib/trilinos/lib/../lib]
+    arg [-L/lib64/../lib] ==> dir [/lib64/../lib]
+    arg [-L/opt/hamzstlib/lib/../lib] ==> dir [/opt/hamzstlib/lib/../lib]
+    arg [-L/opt/hamzstlib/Kitware/install/VTK/lib/../lib] ==> dir [/opt/hamzstlib/Kitware/install/VTK/lib/../lib]
+    arg [-L/opt/hamzstlib/grass80/lib/../lib] ==> dir [/opt/hamzstlib/grass80/lib/../lib]
+    arg [-L/opt/hamzstlib/Kitware/install/paraview510/lib/../lib] ==> dir [/opt/hamzstlib/Kitware/install/paraview510/lib/../lib]
+    arg [-L/opt/caldrazgames/lib/../lib] ==> dir [/opt/caldrazgames/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/opt/hamzstlib/Physics/bulletinstall/lib] ==> dir [/opt/hamzstlib/Physics/bulletinstall/lib]
+    arg [-L/opt/hamzstlib/trilinos/lib] ==> dir [/opt/hamzstlib/trilinos/lib]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux] ==> dir [/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux]
+    arg [-L/opt/hamzstlib/lib] ==> dir [/opt/hamzstlib/lib]
+    arg [-L/opt/hamzstlib/lib/openmpi] ==> dir [/opt/hamzstlib/lib/openmpi]
+    arg [-L/opt/hamzstlib/Kitware/install/VTK/lib] ==> dir [/opt/hamzstlib/Kitware/install/VTK/lib]
+    arg [-L/opt/hamzstlib/grass80/lib] ==> dir [/opt/hamzstlib/grass80/lib]
+    arg [-L/opt/hamzstlib/Kitware/install/paraview510/lib] ==> dir [/opt/hamzstlib/Kitware/install/paraview510/lib]
+    arg [-L/opt/hamzstlib/include/opencv4] ==> dir [/opt/hamzstlib/include/opencv4]
+    arg [-L/opt/caldrazgames/lib] ==> dir [/opt/caldrazgames/lib]
+    arg [-L/opt/caldrazgames/lib/OGRE] ==> dir [/opt/caldrazgames/lib/OGRE]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_3c258.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o]
+    arg [/usr/lib/../lib/crtn.o] ==> obj [/usr/lib/../lib/crtn.o]
+  collapse obj [/usr/lib/../lib/crt1.o] ==> [/usr/lib/crt1.o]
+  collapse obj [/usr/lib/../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib/../lib] ==> [/usr/local/lib]
+  collapse library dir [/opt/hamzstlib/Physics/bulletinstall/lib/../lib] ==> [/opt/hamzstlib/Physics/bulletinstall/lib]
+  collapse library dir [/opt/hamzstlib/trilinos/lib/../lib] ==> [/opt/hamzstlib/trilinos/lib]
+  collapse library dir [/lib64/../lib] ==> [/lib]
+  collapse library dir [/opt/hamzstlib/lib/../lib] ==> [/opt/hamzstlib/lib]
+  collapse library dir [/opt/hamzstlib/Kitware/install/VTK/lib/../lib] ==> [/opt/hamzstlib/Kitware/install/VTK/lib]
+  collapse library dir [/opt/hamzstlib/grass80/lib/../lib] ==> [/opt/hamzstlib/grass80/lib]
+  collapse library dir [/opt/hamzstlib/Kitware/install/paraview510/lib/../lib] ==> [/opt/hamzstlib/Kitware/install/paraview510/lib]
+  collapse library dir [/opt/caldrazgames/lib/../lib] ==> [/opt/caldrazgames/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/opt/hamzstlib/Physics/bulletinstall/lib] ==> [/opt/hamzstlib/Physics/bulletinstall/lib]
+  collapse library dir [/opt/hamzstlib/trilinos/lib] ==> [/opt/hamzstlib/trilinos/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux] ==> [/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux]
+  collapse library dir [/opt/hamzstlib/lib] ==> [/opt/hamzstlib/lib]
+  collapse library dir [/opt/hamzstlib/lib/openmpi] ==> [/opt/hamzstlib/lib/openmpi]
+  collapse library dir [/opt/hamzstlib/Kitware/install/VTK/lib] ==> [/opt/hamzstlib/Kitware/install/VTK/lib]
+  collapse library dir [/opt/hamzstlib/grass80/lib] ==> [/opt/hamzstlib/grass80/lib]
+  collapse library dir [/opt/hamzstlib/Kitware/install/paraview510/lib] ==> [/opt/hamzstlib/Kitware/install/paraview510/lib]
+  collapse library dir [/opt/hamzstlib/include/opencv4] ==> [/opt/hamzstlib/include/opencv4]
+  collapse library dir [/opt/caldrazgames/lib] ==> [/opt/caldrazgames/lib]
+  collapse library dir [/opt/caldrazgames/lib/OGRE] ==> [/opt/caldrazgames/lib/OGRE]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/crt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib;/usr/local/lib;/opt/hamzstlib/Physics/bulletinstall/lib;/opt/hamzstlib/trilinos/lib;/lib;/opt/hamzstlib/lib;/opt/hamzstlib/Kitware/install/VTK/lib;/opt/hamzstlib/grass80/lib;/opt/hamzstlib/Kitware/install/paraview510/lib;/opt/caldrazgames/lib;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0;/lib64;/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux;/opt/hamzstlib/lib/openmpi;/opt/hamzstlib/include/opencv4;/opt/caldrazgames/lib/OGRE]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make -f Makefile cmTC_3f5e2/fast && /bin/make  -f CMakeFiles/cmTC_3f5e2.dir/build.make CMakeFiles/cmTC_3f5e2.dir/build
+make[1]: Entering directory '/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o
+/bin/c++   -v -o CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c,c++,d,fortran,go,objc,obj-c++
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3f5e2.dir/'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3f5e2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccm5qyYj.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/hamzstlib/Physics/ASAM_OpenCRG_BS_V1.2.0/c-api/baseline/inc"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/opt/hamzstlib/glanzshamzs/OpenGL"
+ignoring nonexistent directory "2688hamzstlib/include/opencv4"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr
+ /opt/hamzstlib/Physics/irrlicht-1.8.5/include
+ /opt/hamzstlib/trilinos/include
+ /opt/hamzstlib/include
+ /opt/hamzstlib/include/bullet
+ /opt/hamzstlib/include/eigen3/Eigen
+ /opt/caldrazgames/include
+ /opt/hamzstlib/Kitware/install/paraview510/include
+ /opt/hamzstlib/Physics/chrono2/build/cmake
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: dd76869ff400f6b421bf99a2a61e2a1f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3f5e2.dir/'
+ as -v --64 -o CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccm5qyYj.s
+GNU assembler version 2.37 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_3f5e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f5e2.dir/link.txt --verbose=1
+/bin/c++  -v -rdynamic CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3f5e2 
+Using built-in specs.
+COLLECT_GCC=/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c,c++,d,fortran,go,objc,obj-c++
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3f5e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3f5e2.'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQEnDwm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3f5e2 /usr/lib/../lib/crt1.o /usr/lib/../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/usr/lib/../lib -L/usr/local/lib/../lib -L/opt/hamzstlib/Physics/bulletinstall/lib/../lib -L/opt/hamzstlib/trilinos/lib/../lib -L/lib64/../lib -L/opt/hamzstlib/lib/../lib -L/opt/hamzstlib/Kitware/install/VTK/lib/../lib -L/opt/hamzstlib/grass80/lib/../lib -L/opt/hamzstlib/Kitware/install/paraview510/lib/../lib -L/opt/caldrazgames/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/local/lib -L/opt/hamzstlib/Physics/bulletinstall/lib -L/opt/hamzstlib/trilinos/lib -L/lib64 -L/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux -L/opt/hamzstlib/lib -L/opt/hamzstlib/lib/openmpi -L/opt/hamzstlib/Kitware/install/VTK/lib -L/opt/hamzstlib/grass80/lib -L/opt/hamzstlib/Kitware/install/paraview510/lib -L/opt/hamzstlib/include/opencv4 -L/opt/caldrazgames/lib -L/opt/caldrazgames/lib/OGRE -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3f5e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3f5e2.'
+make[1]: Leaving directory '/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr]
+    add: [/opt/hamzstlib/Physics/irrlicht-1.8.5/include]
+    add: [/opt/hamzstlib/trilinos/include]
+    add: [/opt/hamzstlib/include]
+    add: [/opt/hamzstlib/include/bullet]
+    add: [/opt/hamzstlib/include/eigen3/Eigen]
+    add: [/opt/caldrazgames/include]
+    add: [/opt/hamzstlib/Kitware/install/paraview510/include]
+    add: [/opt/hamzstlib/Physics/chrono2/build/cmake]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr] ==> [/usr]
+  collapse include dir [/opt/hamzstlib/Physics/irrlicht-1.8.5/include] ==> [/opt/hamzstlib/Physics/irrlicht-1.8.5/include]
+  collapse include dir [/opt/hamzstlib/trilinos/include] ==> [/opt/hamzstlib/trilinos/include]
+  collapse include dir [/opt/hamzstlib/include] ==> [/opt/hamzstlib/include]
+  collapse include dir [/opt/hamzstlib/include/bullet] ==> [/opt/hamzstlib/include/bullet]
+  collapse include dir [/opt/hamzstlib/include/eigen3/Eigen] ==> [/opt/hamzstlib/include/eigen3/Eigen]
+  collapse include dir [/opt/caldrazgames/include] ==> [/opt/caldrazgames/include]
+  collapse include dir [/opt/hamzstlib/Kitware/install/paraview510/include] ==> [/opt/hamzstlib/Kitware/install/paraview510/include]
+  collapse include dir [/opt/hamzstlib/Physics/chrono2/build/cmake] ==> [/opt/hamzstlib/Physics/chrono2/build/cmake]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0] ==> [/usr/include/c++/11.2.0]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu] ==> [/usr/include/c++/11.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward] ==> [/usr/include/c++/11.2.0/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr;/opt/hamzstlib/Physics/irrlicht-1.8.5/include;/opt/hamzstlib/trilinos/include;/opt/hamzstlib/include;/opt/hamzstlib/include/bullet;/opt/hamzstlib/include/eigen3/Eigen;/opt/caldrazgames/include;/opt/hamzstlib/Kitware/install/paraview510/include;/opt/hamzstlib/Physics/chrono2/build/cmake;/usr/include/c++/11.2.0;/usr/include/c++/11.2.0/x86_64-pc-linux-gnu;/usr/include/c++/11.2.0/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/make -f Makefile cmTC_3f5e2/fast && /bin/make  -f CMakeFiles/cmTC_3f5e2.dir/build.make CMakeFiles/cmTC_3f5e2.dir/build]
+  ignore line: [make[1]: Entering directory '/root/latex/DianFreya Math Physics Simulator/Source Codes/C++/C+++ Gnuplot SymbolicC++/ch23-Numerical Linear Algebra/2D Ellipses and Unit Circle Simulation to Obtain Constrained Extrema/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/c++   -v -o CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c c++ d fortran go objc obj-c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3f5e2.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3f5e2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccm5qyYj.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/hamzstlib/Physics/ASAM_OpenCRG_BS_V1.2.0/c-api/baseline/inc"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/opt/hamzstlib/glanzshamzs/OpenGL"]
+  ignore line: [ignoring nonexistent directory "2688hamzstlib/include/opencv4"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr]
+  ignore line: [ /opt/hamzstlib/Physics/irrlicht-1.8.5/include]
+  ignore line: [ /opt/hamzstlib/trilinos/include]
+  ignore line: [ /opt/hamzstlib/include]
+  ignore line: [ /opt/hamzstlib/include/bullet]
+  ignore line: [ /opt/hamzstlib/include/eigen3/Eigen]
+  ignore line: [ /opt/caldrazgames/include]
+  ignore line: [ /opt/hamzstlib/Kitware/install/paraview510/include]
+  ignore line: [ /opt/hamzstlib/Physics/chrono2/build/cmake]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: dd76869ff400f6b421bf99a2a61e2a1f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3f5e2.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccm5qyYj.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_3f5e2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f5e2.dir/link.txt --verbose=1]
+  ignore line: [/bin/c++  -v -rdynamic CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3f5e2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr --disable-multilib --with-system-zlib --enable-languages=c c++ d fortran go objc obj-c++]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/../lib/:/usr/local/lib/../lib/:/opt/hamzstlib/Physics/bulletinstall/lib/../lib/:/opt/hamzstlib/trilinos/lib/../lib/:/lib64/../lib/:/opt/hamzstlib/lib/../lib/:/opt/hamzstlib/Kitware/install/VTK/lib/../lib/:/opt/hamzstlib/grass80/lib/../lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/../lib/:/opt/caldrazgames/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/:/usr/local/lib/:/opt/hamzstlib/Physics/bulletinstall/lib/:/opt/hamzstlib/trilinos/lib/:/lib64/:/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux/:/opt/hamzstlib/lib/:/opt/hamzstlib/lib/openmpi/:/opt/hamzstlib/Kitware/install/VTK/lib/:/opt/hamzstlib/grass80/lib/:/opt/hamzstlib/Kitware/install/paraview510/lib/:/opt/hamzstlib/include/opencv4/:/opt/caldrazgames/lib/:/opt/caldrazgames/lib/OGRE/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3f5e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3f5e2.']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQEnDwm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3f5e2 /usr/lib/../lib/crt1.o /usr/lib/../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/usr/lib/../lib -L/usr/local/lib/../lib -L/opt/hamzstlib/Physics/bulletinstall/lib/../lib -L/opt/hamzstlib/trilinos/lib/../lib -L/lib64/../lib -L/opt/hamzstlib/lib/../lib -L/opt/hamzstlib/Kitware/install/VTK/lib/../lib -L/opt/hamzstlib/grass80/lib/../lib -L/opt/hamzstlib/Kitware/install/paraview510/lib/../lib -L/opt/caldrazgames/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/local/lib -L/opt/hamzstlib/Physics/bulletinstall/lib -L/opt/hamzstlib/trilinos/lib -L/lib64 -L/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux -L/opt/hamzstlib/lib -L/opt/hamzstlib/lib/openmpi -L/opt/hamzstlib/Kitware/install/VTK/lib -L/opt/hamzstlib/grass80/lib -L/opt/hamzstlib/Kitware/install/paraview510/lib -L/opt/hamzstlib/include/opencv4 -L/opt/caldrazgames/lib -L/opt/caldrazgames/lib/OGRE -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /usr/lib/../lib/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQEnDwm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3f5e2] ==> ignore
+    arg [/usr/lib/../lib/crt1.o] ==> obj [/usr/lib/../lib/crt1.o]
+    arg [/usr/lib/../lib/crti.o] ==> obj [/usr/lib/../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/lib/../lib] ==> dir [/usr/local/lib/../lib]
+    arg [-L/opt/hamzstlib/Physics/bulletinstall/lib/../lib] ==> dir [/opt/hamzstlib/Physics/bulletinstall/lib/../lib]
+    arg [-L/opt/hamzstlib/trilinos/lib/../lib] ==> dir [/opt/hamzstlib/trilinos/lib/../lib]
+    arg [-L/lib64/../lib] ==> dir [/lib64/../lib]
+    arg [-L/opt/hamzstlib/lib/../lib] ==> dir [/opt/hamzstlib/lib/../lib]
+    arg [-L/opt/hamzstlib/Kitware/install/VTK/lib/../lib] ==> dir [/opt/hamzstlib/Kitware/install/VTK/lib/../lib]
+    arg [-L/opt/hamzstlib/grass80/lib/../lib] ==> dir [/opt/hamzstlib/grass80/lib/../lib]
+    arg [-L/opt/hamzstlib/Kitware/install/paraview510/lib/../lib] ==> dir [/opt/hamzstlib/Kitware/install/paraview510/lib/../lib]
+    arg [-L/opt/caldrazgames/lib/../lib] ==> dir [/opt/caldrazgames/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/opt/hamzstlib/Physics/bulletinstall/lib] ==> dir [/opt/hamzstlib/Physics/bulletinstall/lib]
+    arg [-L/opt/hamzstlib/trilinos/lib] ==> dir [/opt/hamzstlib/trilinos/lib]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux] ==> dir [/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux]
+    arg [-L/opt/hamzstlib/lib] ==> dir [/opt/hamzstlib/lib]
+    arg [-L/opt/hamzstlib/lib/openmpi] ==> dir [/opt/hamzstlib/lib/openmpi]
+    arg [-L/opt/hamzstlib/Kitware/install/VTK/lib] ==> dir [/opt/hamzstlib/Kitware/install/VTK/lib]
+    arg [-L/opt/hamzstlib/grass80/lib] ==> dir [/opt/hamzstlib/grass80/lib]
+    arg [-L/opt/hamzstlib/Kitware/install/paraview510/lib] ==> dir [/opt/hamzstlib/Kitware/install/paraview510/lib]
+    arg [-L/opt/hamzstlib/include/opencv4] ==> dir [/opt/hamzstlib/include/opencv4]
+    arg [-L/opt/caldrazgames/lib] ==> dir [/opt/caldrazgames/lib]
+    arg [-L/opt/caldrazgames/lib/OGRE] ==> dir [/opt/caldrazgames/lib/OGRE]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_3f5e2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o]
+    arg [/usr/lib/../lib/crtn.o] ==> obj [/usr/lib/../lib/crtn.o]
+  collapse obj [/usr/lib/../lib/crt1.o] ==> [/usr/lib/crt1.o]
+  collapse obj [/usr/lib/../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib/../lib] ==> [/usr/local/lib]
+  collapse library dir [/opt/hamzstlib/Physics/bulletinstall/lib/../lib] ==> [/opt/hamzstlib/Physics/bulletinstall/lib]
+  collapse library dir [/opt/hamzstlib/trilinos/lib/../lib] ==> [/opt/hamzstlib/trilinos/lib]
+  collapse library dir [/lib64/../lib] ==> [/lib]
+  collapse library dir [/opt/hamzstlib/lib/../lib] ==> [/opt/hamzstlib/lib]
+  collapse library dir [/opt/hamzstlib/Kitware/install/VTK/lib/../lib] ==> [/opt/hamzstlib/Kitware/install/VTK/lib]
+  collapse library dir [/opt/hamzstlib/grass80/lib/../lib] ==> [/opt/hamzstlib/grass80/lib]
+  collapse library dir [/opt/hamzstlib/Kitware/install/paraview510/lib/../lib] ==> [/opt/hamzstlib/Kitware/install/paraview510/lib]
+  collapse library dir [/opt/caldrazgames/lib/../lib] ==> [/opt/caldrazgames/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/opt/hamzstlib/Physics/bulletinstall/lib] ==> [/opt/hamzstlib/Physics/bulletinstall/lib]
+  collapse library dir [/opt/hamzstlib/trilinos/lib] ==> [/opt/hamzstlib/trilinos/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux] ==> [/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux]
+  collapse library dir [/opt/hamzstlib/lib] ==> [/opt/hamzstlib/lib]
+  collapse library dir [/opt/hamzstlib/lib/openmpi] ==> [/opt/hamzstlib/lib/openmpi]
+  collapse library dir [/opt/hamzstlib/Kitware/install/VTK/lib] ==> [/opt/hamzstlib/Kitware/install/VTK/lib]
+  collapse library dir [/opt/hamzstlib/grass80/lib] ==> [/opt/hamzstlib/grass80/lib]
+  collapse library dir [/opt/hamzstlib/Kitware/install/paraview510/lib] ==> [/opt/hamzstlib/Kitware/install/paraview510/lib]
+  collapse library dir [/opt/hamzstlib/include/opencv4] ==> [/opt/hamzstlib/include/opencv4]
+  collapse library dir [/opt/caldrazgames/lib] ==> [/opt/caldrazgames/lib]
+  collapse library dir [/opt/caldrazgames/lib/OGRE] ==> [/opt/caldrazgames/lib/OGRE]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/crt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib;/usr/local/lib;/opt/hamzstlib/Physics/bulletinstall/lib;/opt/hamzstlib/trilinos/lib;/lib;/opt/hamzstlib/lib;/opt/hamzstlib/Kitware/install/VTK/lib;/opt/hamzstlib/grass80/lib;/opt/hamzstlib/Kitware/install/paraview510/lib;/opt/caldrazgames/lib;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0;/lib64;/opt/hamzstlib/Physics/irrlicht-1.8.5/lib/Linux;/opt/hamzstlib/lib/openmpi;/opt/hamzstlib/include/opencv4;/opt/caldrazgames/lib/OGRE]
+  implicit fwks: []
+
+

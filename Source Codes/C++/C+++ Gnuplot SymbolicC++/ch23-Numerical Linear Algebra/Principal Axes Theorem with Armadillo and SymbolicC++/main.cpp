@@ -17,6 +17,11 @@ double halving(double x)
 	return x/y;
 }
 
+double division(double x, double y)
+{
+	return x/y;
+}
+
 // Driver code
 int main(int argc, char** argv)
 {

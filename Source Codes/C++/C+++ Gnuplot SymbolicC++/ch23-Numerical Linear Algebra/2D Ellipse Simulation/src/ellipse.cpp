@@ -68,7 +68,7 @@ int main(int argc, char const *argv[])
 		
 		wave_tail.push_front(wave_N);
 
-		// This for loop is the one running the movement of the dot in the circle and the sawtooth wave that is being drawn
+		// This for loop is the one running the dots that will make the shape of an ellipse
 		for (auto &it : wave_tail)
 		{
 			draw_list->AddCircleFilled(it, 1.0, IM_COL32(45, 0, 255, 255));
