@@ -44,4 +44,5 @@ target_link_libraries(${PROJECT_NAME}
   glfw 
   ${OPENGL_gl_LIBRARY} 
   symbolicc++
+  armadillo
 )
