@@ -1,0 +1,67 @@
+// g++ test1.cpp -lsymbolicc++ -fno-elide-constructors
+#include <iostream>
+#include "symbolicc++.h"
+
+using namespace std;
+int main(void)
+{
+    Symbolic x("x"), y("y");
+
+    Equation e1 = (x^2) + (y^2) == 13;
+    Equation e2 = (x^2) - y == 7;
+
+    Equations eqs = {e1, e2};
+    list<Symbolic> symbs = {x, y};
+    list<Equations> sols = solve(eqs, symbs);
+
+    Symbolic x_sol, y_sol;
+    int i = 1;
+    for( auto iter1 = sols.begin(); iter1 != sols.end(); iter1++)
+    {
+        x_sol = x.subst((*(*iter1).begin()));
+        y_sol = y.subst((*(--(*iter1).end())));
+        cout << "p" << i << " = {" << x_sol << ", " << y_sol << "};" << endl;
+        i++;
+    }
+    return 0;
+}
+
+
+#include <symbolicc++.h>
+#include <iostream>
+
+int main()
+{
+    Symbolic a("a");
+    Symbolic b("b");
+    Symbolic c("c");
+
+    auto eq1 = (a^2) + (b^2) == (c^2);
+    auto solutions = solve(eq1, a);
+
+    for (auto i = solutions.begin(); i != solutions.end(); i++)
+        std::cout << (*i).simplify() << std::endl;
+}
+
+
+#include <symbolicc++.h>
+#include <iostream>
+
+int main()
+{
+    Symbolic a("a");
+    Symbolic b("b");
+    Symbolic c("c");
+    Symbolic d("d");
+
+    auto eq1 = a + b*c*d == 10;
+    auto eq2 = b + a*c*d == 10;
+    auto eq3 = c + a*b*d == 10;
+    auto eq4 = d + a*b*c == 10;
+    auto eq = (eq1, eq2, eq3, eq4);
+    auto solutions = solve(eq, (a, b, c, d));
+
+    for (auto i = solutions.begin(); i != solutions.end(); i++)
+        std::cout << *i << std::endl;
+}
+
