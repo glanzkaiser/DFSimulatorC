@@ -18,7 +18,7 @@ The book:
 :writing_hand: = On Progress
 
 | Status | Name | Details |
-| -------------     | ------------- | 
+| -------------     | ------------- | ------------- | 
 |:writing_hand:| Fundamental of Physics               | Chapter 8
 |:sunflower:   | Numerical Linear Algebra             | Chapter 1 - Chapter 9
 |:writing_hand:| Probability and Data Analysis        | Chapter 1
