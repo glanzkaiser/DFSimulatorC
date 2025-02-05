@@ -77,7 +77,7 @@ public:
 		b2RevoluteJointDef jd;
 		b2Vec2 anchor;
 
-		// Create the pendulum ball
+		// Create the pendulum box
 		b2PolygonShape boxShape1;
 		boxShape1.SetAsBox(1.0f, 0.5f); 
 

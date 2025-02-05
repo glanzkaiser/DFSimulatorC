@@ -26,6 +26,8 @@ set (TESTBED_SOURCE_FILES
 	tests/work_generalvariable.cpp	
 	tests/work_verticalspringupward.cpp	
 	tests/spring_work.cpp
+	tests/conservationofenergy_blockslidestohigherlevel.cpp
+	tests/conservationofenergy_elevatorsnaps.cpp
 	tests/potentialenergy_looptheloop.cpp
 	tests/potentialenergy_verticalspringupward.cpp
 	tests/potentialenergy_runawaytruck.cpp

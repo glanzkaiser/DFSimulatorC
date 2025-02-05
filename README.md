@@ -11,6 +11,25 @@ The book:
 
 #### it is not finished yet, our goal is to finish major sections and chapters in Fundamental of Physics book and some Mathematics simulation like Heat Equation PDE, Numerical Integration, Numerical Differentiation. I have to postpone Lasthrim Projection writing due to this (turns out Physics is more fun than Mathematics alone)
 
+# Status
+
+:sunflower: = Done
+
+:writing_hand: = On Progress
+
+| Status | Name | Details |
+| -------------     | ------------- | 
+|:writing_hand:| Fundamental of Physics               | Chapter 8
+|:sunflower:   | Numerical Linear Algebra             | Chapter 1 - Chapter 9
+|:writing_hand:| Probability and Data Analysis        | Chapter 1
+|:writing_hand:| Linear and Nonlinear Programming     | Chapter 1
+|:writing_hand:| Numerical Methods		      | Chapter 2
+|:writing_hand:| Complex Numbers		      | Chapter 1
+|:writing_hand:| Stochastic Processes		      | Chapter 1
+|:writing_hand:| Financial Mathematics		      | Chapter 1
+|:writing_hand:| PDE - Wave Equation		      | Chapter 1
+|:writing_hand:| PDE - Heat Equation		      | Chapter 1
+
 # To Clone the repository
 Go to a directory specified to learn this, then open terminal / xterm and type:
 ```
