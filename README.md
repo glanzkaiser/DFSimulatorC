@@ -48,6 +48,8 @@ https://youtu.be/6FK19XRSh6U
 | Newton's First Law| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Newton-First-Law.gif" width="83%">
 | Projectile Dropped| <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Projectile-Dropped.gif" width="83%">
 | Simple Pendulum   | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-Simple-Pendulum.gif" width="83%">
+| Elevator Snaps    | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-ElevatorSnaps.gif" width="83%">
+| Particle Slides   | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/images/DianFreya-ParticleSlides.gif" width="83%">
 
 # Current Mathematics Simulation
 

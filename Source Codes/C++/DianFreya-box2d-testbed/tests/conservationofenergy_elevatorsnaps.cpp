@@ -62,13 +62,13 @@ public:
 
 		b2FixtureDef boxFixtureDef1;
 		boxFixtureDef1.restitution = 0.75f;
-		boxFixtureDef1.density = 225.0f; // this will affect the left elevator mass
+		boxFixtureDef1.density = 225.0f; // this will affect the left elevator mass, the multiplier is (1800.0f/225.0f)
 		boxFixtureDef1.friction = 0.3f;
 		boxFixtureDef1.shape = &boxShape1;
 			
 		b2BodyDef boxBodyDef1;
 		boxBodyDef1.type = b2_dynamicBody;
-		boxBodyDef1.position.Set(0.0f, 24.0f);
+		boxBodyDef1.position.Set(0.0f, 12.9f); // set the elevator position here
 		// boxBodyDef2.fixedRotation = true;
 		// boxBodyDef1.angularDamping = 0.2f;
 
@@ -79,9 +79,11 @@ public:
 		// Create the anchor and connect it to the crate
 		anchor.Set(0.0f, 36.0f); // x and y axis position for the Pendulum anchor
 		jdelevator.Initialize(b2, m_boxelevator, anchor);
-		// to create the joint / rope that connect the elevator
+		// to create the joint / rope that connect the elevator, 
+		// we use (b2RevoluteJoint*)m_world->CreateJoint(&jdelevator); so we can destroy it later
 		m_jointelevator = (b2RevoluteJoint*)m_world->CreateJoint(&jdelevator);
 		// End of creating the pendulum set
+		
 		
 		{
 			b2BodyDef bd;
@@ -128,7 +130,7 @@ public:
 			
 			// Create the box as the movable object
 			b2PolygonShape boxShape;
-			boxShape.SetAsBox(0.5f, 0.1f);
+			boxShape.SetAsBox(1.0f, 0.2f); // the dimension of the spring upper part
 			
 			b2FixtureDef boxFixtureDef;
 			boxFixtureDef.restitution = 0.0f;
@@ -192,9 +194,9 @@ public:
 	}
 	void UpdateUI() override
 	{
-		ImGui::SetNextWindowPos(ImVec2(10.0f, 200.0f));
+		ImGui::SetNextWindowPos(ImVec2(10.0f, 260.0f));
 		ImGui::SetNextWindowSize(ImVec2(260.0f, 150.0f));
-		ImGui::Begin("Joint Controls", nullptr, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize);
+		ImGui::Begin("Spring Joint Controls", nullptr, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize);
 
 		if (ImGui::SliderFloat("Length", &m_length, 0.0f, 20.0f, "%.0f"))
 		{
@@ -227,18 +229,21 @@ public:
 		b2MassData massDataelevator= m_boxelevator->GetMassData();
 		b2Vec2 position = m_box->GetPosition();
 		b2Vec2 velocity = m_box->GetLinearVelocity();
+		b2Vec2 position_elevator = m_boxelevator->GetPosition();
+		b2Vec2 velocity_elevator = m_boxelevator->GetLinearVelocity();
 		m_time += 1.0f / 60.0f;	// assuming we are using frequency of 60 Hertz 
-		float m = massData.mass;
+		float m = massDataelevator.mass;
+		float d = 3.7f;
 		float g = 9.8f;
-		float y =  11.0f; 
-		// y = the position at which when we place the mass it would not move / equlibrium position
-		// y = y position of the ceiling - m_minLength - initial y position of the mass
-		float k = 310.0f;		
-		float y_eq = 11.0f;
+		float k = 150000.0f;		
+		float fk = 4400.0f;		
+		float y_eq = 7.8f;
+		float v;
+		v = sqrt(2*d*(g-(fk/m)));
 
 		g_debugDraw.DrawString(5, m_textLine, "Press L to make the elevator snaps");
 		m_textLine += m_textIncrement;
-		g_debugDraw.DrawString(5, m_textLine, "Press W to apply force 1,000 N upward / S to apply force 1,000 N downward");
+		g_debugDraw.DrawString(5, m_textLine, "Press W to apply force to the spring 1,000 N upward / S to apply force 1,000 N downward");
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Press T to reset time");
 		m_textLine += m_textIncrement;
@@ -254,7 +259,17 @@ public:
 		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "The spring constant, k = %4.1f", k);
 		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "Elevator position = (%4.1f, %4.1f)", position_elevator.x, position_elevator.y);
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "Elevator velocity = (%4.1f, %4.1f)", velocity_elevator.x, velocity_elevator.y);
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "The distance between the elevator and the spring, d = %4.1f", d);
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "The frictional force when the elevator falls, f = %4.1f", fk);
+		m_textLine += m_textIncrement;
 		g_debugDraw.DrawString(5, m_textLine, "Equilibrium position for the spring, y = %4.1f", y_eq);
+		m_textLine += m_textIncrement;
+		g_debugDraw.DrawString(5, m_textLine, "The speed of the elevator before it hits the spring, v = %4.1f", v);
 		m_textLine += m_textIncrement;
 		// Print the result in every time step then plot it into graph with either gnuplot or anything
 
