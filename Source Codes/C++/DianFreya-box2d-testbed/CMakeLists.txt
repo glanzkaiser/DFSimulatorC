@@ -27,12 +27,17 @@ set (TESTBED_SOURCE_FILES
 	tests/work_verticalspringupward.cpp	
 	tests/spring_work.cpp
 	tests/conservationofenergy_blockslidestohigherlevel.cpp
+	tests/conservationofenergy_particleslidestillstop.cpp
 	tests/conservationofenergy_elevatorsnaps.cpp
 	tests/potentialenergy_looptheloop.cpp
 	tests/potentialenergy_verticalspringupward.cpp
 	tests/potentialenergy_runawaytruck.cpp
 	tests/potentialenergy_springincline.cpp
 	tests/potentialenergy_marblespringgun.cpp
+	tests/centerofmass_airplaneexplosion.cpp
+	tests/centerofmass_atomicbomb.cpp
+	tests/centerofmass_threeparticles.cpp
+	tests/centerofmass_racecarwallcollision.cpp
 	tests/spring_test.cpp
 	tests/spring_twomasses.cpp
 	tests/verticalspring_test.cpp
