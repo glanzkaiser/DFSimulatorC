@@ -97,6 +97,9 @@ int main(int argc, char** argv)
 */		
 	numeric f(2,3);
 	cout << f << endl;	
+	// to compute f with floating term do this:
+//	cout << f.evalf() << endl;	
+	
 	cout << "ginac : " << T2Bnew(2,2)  << endl;	
 	cout << "A =" << A <<endl;
 	return 0;

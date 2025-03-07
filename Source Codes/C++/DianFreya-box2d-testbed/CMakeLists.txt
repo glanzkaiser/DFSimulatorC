@@ -36,8 +36,13 @@ set (TESTBED_SOURCE_FILES
 	tests/potentialenergy_marblespringgun.cpp
 	tests/centerofmass_airplaneexplosion.cpp
 	tests/centerofmass_atomicbomb.cpp
+	tests/centerofmass_bulletshotupward.cpp
+	tests/centerofmass_elasticcollisionsteelball.cpp
+	tests/centerofmass_elasticcollisiontwoballs.cpp
 	tests/centerofmass_threeparticles.cpp
 	tests/centerofmass_racecarwallcollision.cpp
+	tests/centerofmass_speeddeamplifier.cpp
+	tests/centerofmass_speedamplifier.cpp
 	tests/spring_test.cpp
 	tests/spring_twomasses.cpp
 	tests/verticalspring_test.cpp
