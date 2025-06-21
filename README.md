@@ -21,14 +21,6 @@ The book:
 | -------------     | ------------- | ------------- | 
 |:writing_hand:| Fundamental of Physics               | Chapter 8
 |:sunflower:   | Numerical Linear Algebra             | Chapter 1 - Chapter 9
-|:writing_hand:| Probability and Data Analysis        | Chapter 1
-|:writing_hand:| Linear and Nonlinear Programming     | Chapter 1
-|:writing_hand:| Numerical Methods		      | Chapter 2
-|:writing_hand:| Complex Numbers		      | Chapter 1
-|:writing_hand:| Stochastic Processes		      | Chapter 1
-|:writing_hand:| Financial Mathematics		      | Chapter 1
-|:writing_hand:| PDE - Wave Equation		      | Chapter 1
-|:writing_hand:| PDE - Heat Equation		      | Chapter 1
 
 # To Clone the repository
 Go to a directory specified to learn this, then open terminal / xterm and type:
