@@ -47,6 +47,6 @@ int main()
 				break;
 			}
 		p0 = pn;
-		}	
+	}	
 	return 0;
 }

@@ -141,8 +141,8 @@ void Sphere::reverseNormals()
 
 //  parameter for the ellipsoid,
 float a = 1.2; //  the ellipsoid' x axis has length of 2a
-float b = 0.6; //  the ellipsoid' y axis has length of 2b
-float c = 0.5; //  the ellipsoid' z axis has length of 2c
+float b = 1.2; //  the ellipsoid' y axis has length of 2b
+float c = 1.0; //  the ellipsoid' z axis has length of 2c
 ///////////////////////////////////////////////////////////////////////////////
 // print itself
 ///////////////////////////////////////////////////////////////////////////////
