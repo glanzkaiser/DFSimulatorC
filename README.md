@@ -9,7 +9,7 @@ The book:
 | <img src="https://github.com/glanzkaiser/DFSimulatorC/blob/main/DFSimulatorC%2B%2BCover.png" width="83%"> | 
 | <a href="https://github.com/glanzkaiser/DFSimulatorC/blob/main/DianFreya%20Math%20Physics%20Simulator.pdf">Click</a> | 
 
-#### it is not finished yet, our goal is to finish major sections and chapters in Fundamental of Physics book and some Mathematics simulation like Heat Equation PDE, Numerical Integration, Numerical Differentiation. I have to postpone Lasthrim Projection writing due to this (turns out Physics is more fun than Mathematics alone)
+#### it is still an ongoing book (unfinished), our goal is to finish major chapters in Fundamental of Physics book till chapter 20 from Fundamental of Physics by David Halliday, Jearl Walker, Robert Resnicks.
 
 # Status
 
